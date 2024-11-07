@@ -57,7 +57,9 @@
 }
 
 .span-card {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  width: 10vw;
+  text-align: justify;
 }
 
 .p-card {
