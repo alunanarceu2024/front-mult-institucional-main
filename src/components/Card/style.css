@@ -42,3 +42,30 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media (max-width: 768px) {
+  .card {
+    width: 80vw;
+    height: 30vh;
+    justify-content: space-between;
+    margin-right: 1rem;
+  }
+
+  .card > div {
+    width: 100%;
+    gap: 1rem;
+}
+
+.span-card {
+  font-size: 1.3rem;
+}
+
+.p-card {
+  font-size: 1rem;
+}
+
+.img-card {
+  max-width: 25rem;
+  /* margin-left: 1rem; */
+}
+}
